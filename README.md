@@ -27,7 +27,7 @@ nest new api
 ### bin/\<project-name>.ts
 ```TypeScript
 import * as cdk from '@aws-cdk/core';
-import { CdkNestStack } from '../lib/showeasy_lambda-stack';
+import { CdkNestStack } from '../lib/<project-name>-stack';
 
 const app = new cdk.App();
 new CdkNestStack(app, 'CdkNestStack');
